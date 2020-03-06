@@ -2,17 +2,9 @@
 
 Simple pagination component for ReactJS.
 
-
-## Installation
-
-Run the following command:
-`npm install simple-react-hooks-pagination`
-
-## Usage
-
 ```javascript
 import React, { useState,useEffect } from 'react';
-import Pagination from 'simple-react-hooks-pagination';
+import Pagination from './components/Pagination';
 const pageLimit = 5;
 
 const Reducer = (state, action) => {  
@@ -75,7 +67,6 @@ function App() {
     </div>
   );
 }
-
 export default App;
 ```
 

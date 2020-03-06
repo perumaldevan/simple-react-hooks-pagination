@@ -1,6 +1,5 @@
 import React, { useState,useEffect,useCallback } from 'react';
 import PropTypes from 'prop-types';
-import './app.css';
 
 const PREVIOUS_PAGE = 'PREV';
 const NEXT_PAGE= 'NEXT';
@@ -88,7 +87,7 @@ function  Pagination(props) {
     const pages = getPager();
     
     return (
-        <nav aria-label="Pagination">
+        <nav aria-label="Countries Pagination">
           <ul className="pagination">
             { pages.map((page, index) => {
 

@@ -1,36 +1,29 @@
 {
-  "name": "simple-react-hooks-pagination",
-  "version": "0.1.12",
-  "main": "dist/Pagination.js",
-  "style": "dist/app.css",
-  "private": false,
-  "babel": {
-    "presets": [
-      "@babel/preset-react"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/perumaldevan/simple-react-hooks-pagination.git"
-  },
+  "name": "react-hooks-pagination",
+  "version": "0.1.2",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.9.1",
+    "react": "^16.12.0",
+    "react-custom-card-testing": "^0.1.2",
+    "react-dom": "^16.12.0",
+    "react-hooks-paginator": "^0.4.4",
+    "react-scripts": "3.4.0",
+    "simple-react-hooks-pagination": "^0.1.13"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rollup -c -o dist/Pagination.js",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "author": "Perumal thevan",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,9 +38,6 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/preset-react": "^7.8.3",
-    "babel-preset-react": "^6.24.1",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-uglify": "^6.0.4"
+    "@babel/preset-react": "^7.8.3"
   }
 }
