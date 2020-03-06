@@ -88,7 +88,7 @@ function  Pagination(props) {
     const pages = getPager();
     
     return (
-        <nav aria-label="Countries Pagination">
+        <nav aria-label="Pagination">
           <ul className="pagination">
             { pages.map((page, index) => {
 

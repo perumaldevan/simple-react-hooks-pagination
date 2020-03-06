@@ -1,68 +1,91 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple React Hooks Pagination
 
-## Available Scripts
+Simple pagination component for ReactJS.
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Run the following command:
+`npm install simple-react-hooks-pagination`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+```javascript
+import React, { useState,useEffect } from 'react';
+import Pagination from 'simple-react-hooks-pagination';
+const pageLimit = 5;
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+const Reducer = (state, action) => {  
+  switch (action.type) {  
+      case 'OnSuccess':  
+          return {  
+              loading: false,  
+              user: action.payload,  
+              error: ''  
+          }  
+      case 'OnFailure':  
+          return {  
+              loading: false,  
+              user: {},  
+              error: 'Something went wrong'  
+          }  
 
-### `npm run build`
+      default:  
+          return state  
+  }  
+}
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+function App() {
+  const [offset, setOffset] = useState(0);
+  const [totalRecords, setTotalRecords] = useState(0);
+  import firebase from './Firebase';
+  
+  const onPageChanged = page => {
+    const offset = (page - 1) * pageLimit;
+    setOffset(offset);
+  }
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  useEffect( () => {
+     collection
+    .orderBy('id')
+    .startAfter(offset)
+    .limit(5)
+    .get()
+    .then(querySnapshot => {
+      const data = querySnapshot.docs.map(doc => doc.data());
+       dispatch({ type: 'OnSuccess', payload: data })
+    }) .catch(error => {  
+      dispatch({ type: 'OnFailure' })  
+    });
+    collection.get().then(function(querySnapshot) {      
+      setTotalRecords(querySnapshot.size);
+  });
+  }, [offset]);
+   const {loading,user,error}  =state;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  return (
+    <div>
+       <Pagination
+                totalRecords={totalRecords}
+                pageLimit={pageLimit}
+                pageRangeDisplayed={1}
+                setOffset={setOffset}
+                onChangePage={onPageChanged}
+      />
+    </div>
+  );
+}
 
-### `npm run eject`
+export default App;
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Props
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+| Parameters        | Description                        
+|------------------ |------------------------------------|
+| totalRecords      |  Total count of items .                 |
+| pageLimit         |  Count of items per  page                  |
+| pageRangeDisplayed    |  Range of pages in pagination, exclude navigation blocks (prev, next, first, last pages.                |
+| setOffset         |  function that updates the offset state              |
+                   
+```
