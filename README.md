@@ -4,7 +4,7 @@ Simple pagination component for ReactJS.
 
 ```javascript
 import React, { useState,useEffect } from 'react';
-import Pagination from './components/Pagination';
+import Pagination from 'reactjs-hooks-pagination';
 const pageLimit = 5;
 
 const Reducer = (state, action) => {  

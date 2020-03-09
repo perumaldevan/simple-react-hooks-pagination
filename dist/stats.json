@@ -1,0 +1,954 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.28.3",
+  "hash": "5c1fdaee047b259a7a9f",
+  "time": 762,
+  "builtAt": 1583751164176,
+  "publicPath": "/dist/",
+  "outputPath": "/home/user/Downloads/react-hooks-pagination/dist",
+  "assetsByChunkName": {
+    "main": "index.js"
+  },
+  "assets": [
+    {
+      "name": "index.js",
+      "size": 4452,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 8295,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "hash": "3f8acd24dee84c4c2d10",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+          "name": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "issuerId": 2,
+          "issuerName": "./src/lib/Pagination.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "name": "./src/lib/Pagination.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "17:0-64"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "36:18-26"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "48:2-11"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "51:17-28"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "109:9-14"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "109:42-47"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "112:39-44"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "115:7-12"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "120:7-12"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "122:16-21"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "125:35-40"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "128:7-12"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "133:7-12"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "135:16-21"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "138:11-16"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "141:7-12"
+            }
+          ],
+          "usedExports": [
+            "default",
+            "useCallback",
+            "useEffect",
+            "useState"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 1,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+          "name": "./node_modules/prop-types/index.js",
+          "index": 2,
+          "index2": 3,
+          "size": 710,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "issuerId": 2,
+          "issuerName": "./src/lib/Pagination.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "name": "./src/lib/Pagination.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "prop-types",
+              "loc": "18:0-35"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "150:16-25"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "151:13-22"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "152:18-27"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "module": "./src/lib/Pagination.js",
+              "moduleName": "./src/lib/Pagination.js",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "153:16-25"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\nif (process.env.NODE_ENV !== 'production') {\n  var ReactIs = require('react-is');\n\n  // By explicitly using `prop-types` you are opting into new development behavior.\n  // http://fb.me/prop-types-in-prod\n  var throwOnDirectAccess = true;\n  module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOnDirectAccess);\n} else {\n  // By explicitly using `prop-types` you are opting into new production behavior.\n  // http://fb.me/prop-types-in-prod\n  module.exports = require('./factoryWithThrowingShims')();\n}\n"
+        },
+        {
+          "id": 2,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "name": "./src/lib/Pagination.js",
+          "index": 0,
+          "index2": 4,
+          "size": 5608,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/lib/Pagination.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance\"); }\n\nfunction _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === \"[object Arguments]\")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nimport React, { useState, useEffect, useCallback } from 'react';\nimport PropTypes from 'prop-types';\nvar PREVIOUS_PAGE = 'PREV';\nvar NEXT_PAGE = 'NEXT';\n\nvar range = function range(from, to) {\n  var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;\n  var i = from;\n  var range = [];\n\n  while (i <= to) {\n    range.push(i);\n    i += step;\n  }\n\n  return range;\n};\n\nfunction Pagination(props) {\n  var _useState = useState(1),\n      _useState2 = _slicedToArray(_useState, 2),\n      currentPage = _useState2[0],\n      setCurrentPage = _useState2[1];\n\n  var _props$totalRecords = props.totalRecords,\n      totalRecords = _props$totalRecords === void 0 ? null : _props$totalRecords,\n      _props$pageLimit = props.pageLimit,\n      pageLimit = _props$pageLimit === void 0 ? 30 : _props$pageLimit,\n      _props$pageRangeDispl = props.pageRangeDisplayed,\n      pageRangeDisplayed = _props$pageRangeDispl === void 0 ? 0 : _props$pageRangeDispl;\n  var totalPages = Math.ceil(totalRecords / pageLimit);\n  useEffect(function () {\n    gotoPage(1);\n  }, []);\n  var gotoPage = useCallback(function (page) {\n    setCurrentPage(page);\n    props.onChangePage(page);\n  }, [currentPage]);\n\n  var setPage = function setPage(page) {\n    return function (event) {\n      event.preventDefault();\n      gotoPage(page);\n    };\n  };\n\n  var getPager = function getPager() {\n    var totalItems = pageRangeDisplayed * 2 + 3;\n    var totalBlocks = totalItems + 2;\n\n    if (totalPages > totalBlocks) {\n      var startPage = Math.max(2, currentPage - pageRangeDisplayed);\n      var endPage = Math.min(totalPages - 1, currentPage + pageRangeDisplayed);\n\n      var _pages = range(startPage, endPage);\n\n      var hasLeftSpill = startPage > 2;\n      var hasRightSpill = totalPages - endPage > 1;\n      var spillOffset = totalItems - (_pages.length + 1);\n\n      switch (true) {\n        case hasLeftSpill && !hasRightSpill:\n          {\n            var extraPages = range(startPage - spillOffset, startPage - 1);\n            _pages = [PREVIOUS_PAGE].concat(_toConsumableArray(extraPages), _toConsumableArray(_pages));\n            break;\n          }\n\n        case !hasLeftSpill && hasRightSpill:\n          {\n            var _extraPages = range(endPage + 1, endPage + spillOffset);\n\n            _pages = [].concat(_toConsumableArray(_pages), _toConsumableArray(_extraPages), [NEXT_PAGE]);\n            break;\n          }\n\n        case hasLeftSpill && hasRightSpill:\n        default:\n          {\n            _pages = [PREVIOUS_PAGE].concat(_toConsumableArray(_pages), [NEXT_PAGE]);\n            break;\n          }\n      }\n\n      return [1].concat(_toConsumableArray(_pages), [totalPages]);\n    }\n\n    return range(1, totalPages);\n  };\n\n  if (!totalRecords || totalPages === 1) return null;\n  var pages = getPager();\n  return React.createElement(\"nav\", null, React.createElement(\"ul\", {\n    className: \"pagination\"\n  }, pages.map(function (page, index) {\n    if (page === PREVIOUS_PAGE) return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\"\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      \"aria-label\": \"Previous\",\n      onClick: setPage(1)\n    }, React.createElement(\"span\", {\n      \"aria-hidden\": \"true\"\n    }, \"\\xAB\"), React.createElement(\"span\", {\n      className: \"sr-only\"\n    }, \"Previous\")));\n    if (page === NEXT_PAGE) return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\"\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      \"aria-label\": \"Next\",\n      onClick: setPage(totalPages)\n    }, React.createElement(\"span\", {\n      \"aria-hidden\": \"true\"\n    }, \"\\xBB\"), React.createElement(\"span\", {\n      className: \"sr-only\"\n    }, \"Next\")));\n    return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\".concat(currentPage === page ? ' active' : '')\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      onClick: setPage(page)\n    }, page));\n  })));\n}\n\nPagination.propTypes = {\n  totalRecords: PropTypes.number.isRequired,\n  pageLimit: PropTypes.number,\n  pageNeighbours: PropTypes.number,\n  onChangePage: PropTypes.func\n};\nexport default Pagination;"
+        },
+        {
+          "id": 3,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+          "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "index": 3,
+          "index2": 2,
+          "size": 1621,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+          "issuerId": 1,
+          "issuerName": "./node_modules/prop-types/index.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "name": "./src/lib/Pagination.js"
+            },
+            {
+              "id": 1,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+              "name": "./node_modules/prop-types/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+              "module": "./node_modules/prop-types/index.js",
+              "moduleName": "./node_modules/prop-types/index.js",
+              "type": "cjs require",
+              "userRequest": "./factoryWithThrowingShims",
+              "loc": "18:19-56"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');\n\nfunction emptyFunction() {}\nfunction emptyFunctionWithReset() {}\nemptyFunctionWithReset.resetWarningCache = emptyFunction;\n\nmodule.exports = function() {\n  function shim(props, propName, componentName, location, propFullName, secret) {\n    if (secret === ReactPropTypesSecret) {\n      // It is still safe when called from React.\n      return;\n    }\n    var err = new Error(\n      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +\n      'Use PropTypes.checkPropTypes() to call them. ' +\n      'Read more at http://fb.me/use-check-prop-types'\n    );\n    err.name = 'Invariant Violation';\n    throw err;\n  };\n  shim.isRequired = shim;\n  function getShim() {\n    return shim;\n  };\n  // Important!\n  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.\n  var ReactPropTypes = {\n    array: shim,\n    bool: shim,\n    func: shim,\n    number: shim,\n    object: shim,\n    string: shim,\n    symbol: shim,\n\n    any: shim,\n    arrayOf: getShim,\n    element: shim,\n    elementType: shim,\n    instanceOf: getShim,\n    node: shim,\n    objectOf: getShim,\n    oneOf: getShim,\n    oneOfType: getShim,\n    shape: getShim,\n    exact: getShim,\n\n    checkPropTypes: emptyFunctionWithReset,\n    resetWarningCache: emptyFunction\n  };\n\n  ReactPropTypes.PropTypes = ReactPropTypes;\n\n  return ReactPropTypes;\n};\n"
+        },
+        {
+          "id": 4,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "index": 4,
+          "index2": 1,
+          "size": 314,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+          "issuerId": 3,
+          "issuerName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "issuerPath": [
+            {
+              "id": 2,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+              "name": "./src/lib/Pagination.js"
+            },
+            {
+              "id": 1,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+              "name": "./node_modules/prop-types/index.js"
+            },
+            {
+              "id": 3,
+              "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+              "name": "./node_modules/prop-types/factoryWithThrowingShims.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+              "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "moduleName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "type": "cjs require",
+              "userRequest": "./lib/ReactPropTypesSecret",
+              "loc": "10:27-64"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/lib/Pagination.js",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+      "name": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+      "issuerId": 2,
+      "issuerName": "./src/lib/Pagination.js",
+      "issuerPath": [
+        {
+          "id": 2,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "name": "./src/lib/Pagination.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "17:0-64"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "36:18-26"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "48:2-11"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "51:17-28"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "109:9-14"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "109:42-47"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "112:39-44"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "115:7-12"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "120:7-12"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "122:16-21"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "125:35-40"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "128:7-12"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "133:7-12"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "135:16-21"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "138:11-16"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "141:7-12"
+        }
+      ],
+      "usedExports": [
+        "default",
+        "useCallback",
+        "useEffect",
+        "useState"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "index": 2,
+      "index2": 3,
+      "size": 710,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+      "issuerId": 2,
+      "issuerName": "./src/lib/Pagination.js",
+      "issuerPath": [
+        {
+          "id": 2,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "name": "./src/lib/Pagination.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "prop-types",
+          "loc": "18:0-35"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "prop-types",
+          "loc": "150:16-25"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "prop-types",
+          "loc": "151:13-22"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "prop-types",
+          "loc": "152:18-27"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "module": "./src/lib/Pagination.js",
+          "moduleName": "./src/lib/Pagination.js",
+          "type": "harmony import specifier",
+          "userRequest": "prop-types",
+          "loc": "153:16-25"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\nif (process.env.NODE_ENV !== 'production') {\n  var ReactIs = require('react-is');\n\n  // By explicitly using `prop-types` you are opting into new development behavior.\n  // http://fb.me/prop-types-in-prod\n  var throwOnDirectAccess = true;\n  module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOnDirectAccess);\n} else {\n  // By explicitly using `prop-types` you are opting into new production behavior.\n  // http://fb.me/prop-types-in-prod\n  module.exports = require('./factoryWithThrowingShims')();\n}\n"
+    },
+    {
+      "id": 2,
+      "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+      "name": "./src/lib/Pagination.js",
+      "index": 0,
+      "index2": 4,
+      "size": 5608,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/lib/Pagination.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance\"); }\n\nfunction _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === \"[object Arguments]\")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nimport React, { useState, useEffect, useCallback } from 'react';\nimport PropTypes from 'prop-types';\nvar PREVIOUS_PAGE = 'PREV';\nvar NEXT_PAGE = 'NEXT';\n\nvar range = function range(from, to) {\n  var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;\n  var i = from;\n  var range = [];\n\n  while (i <= to) {\n    range.push(i);\n    i += step;\n  }\n\n  return range;\n};\n\nfunction Pagination(props) {\n  var _useState = useState(1),\n      _useState2 = _slicedToArray(_useState, 2),\n      currentPage = _useState2[0],\n      setCurrentPage = _useState2[1];\n\n  var _props$totalRecords = props.totalRecords,\n      totalRecords = _props$totalRecords === void 0 ? null : _props$totalRecords,\n      _props$pageLimit = props.pageLimit,\n      pageLimit = _props$pageLimit === void 0 ? 30 : _props$pageLimit,\n      _props$pageRangeDispl = props.pageRangeDisplayed,\n      pageRangeDisplayed = _props$pageRangeDispl === void 0 ? 0 : _props$pageRangeDispl;\n  var totalPages = Math.ceil(totalRecords / pageLimit);\n  useEffect(function () {\n    gotoPage(1);\n  }, []);\n  var gotoPage = useCallback(function (page) {\n    setCurrentPage(page);\n    props.onChangePage(page);\n  }, [currentPage]);\n\n  var setPage = function setPage(page) {\n    return function (event) {\n      event.preventDefault();\n      gotoPage(page);\n    };\n  };\n\n  var getPager = function getPager() {\n    var totalItems = pageRangeDisplayed * 2 + 3;\n    var totalBlocks = totalItems + 2;\n\n    if (totalPages > totalBlocks) {\n      var startPage = Math.max(2, currentPage - pageRangeDisplayed);\n      var endPage = Math.min(totalPages - 1, currentPage + pageRangeDisplayed);\n\n      var _pages = range(startPage, endPage);\n\n      var hasLeftSpill = startPage > 2;\n      var hasRightSpill = totalPages - endPage > 1;\n      var spillOffset = totalItems - (_pages.length + 1);\n\n      switch (true) {\n        case hasLeftSpill && !hasRightSpill:\n          {\n            var extraPages = range(startPage - spillOffset, startPage - 1);\n            _pages = [PREVIOUS_PAGE].concat(_toConsumableArray(extraPages), _toConsumableArray(_pages));\n            break;\n          }\n\n        case !hasLeftSpill && hasRightSpill:\n          {\n            var _extraPages = range(endPage + 1, endPage + spillOffset);\n\n            _pages = [].concat(_toConsumableArray(_pages), _toConsumableArray(_extraPages), [NEXT_PAGE]);\n            break;\n          }\n\n        case hasLeftSpill && hasRightSpill:\n        default:\n          {\n            _pages = [PREVIOUS_PAGE].concat(_toConsumableArray(_pages), [NEXT_PAGE]);\n            break;\n          }\n      }\n\n      return [1].concat(_toConsumableArray(_pages), [totalPages]);\n    }\n\n    return range(1, totalPages);\n  };\n\n  if (!totalRecords || totalPages === 1) return null;\n  var pages = getPager();\n  return React.createElement(\"nav\", null, React.createElement(\"ul\", {\n    className: \"pagination\"\n  }, pages.map(function (page, index) {\n    if (page === PREVIOUS_PAGE) return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\"\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      \"aria-label\": \"Previous\",\n      onClick: setPage(1)\n    }, React.createElement(\"span\", {\n      \"aria-hidden\": \"true\"\n    }, \"\\xAB\"), React.createElement(\"span\", {\n      className: \"sr-only\"\n    }, \"Previous\")));\n    if (page === NEXT_PAGE) return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\"\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      \"aria-label\": \"Next\",\n      onClick: setPage(totalPages)\n    }, React.createElement(\"span\", {\n      \"aria-hidden\": \"true\"\n    }, \"\\xBB\"), React.createElement(\"span\", {\n      className: \"sr-only\"\n    }, \"Next\")));\n    return React.createElement(\"li\", {\n      key: index,\n      className: \"page-item\".concat(currentPage === page ? ' active' : '')\n    }, React.createElement(\"a\", {\n      className: \"page-link\",\n      href: \"#\",\n      onClick: setPage(page)\n    }, page));\n  })));\n}\n\nPagination.propTypes = {\n  totalRecords: PropTypes.number.isRequired,\n  pageLimit: PropTypes.number,\n  pageNeighbours: PropTypes.number,\n  onChangePage: PropTypes.func\n};\nexport default Pagination;"
+    },
+    {
+      "id": 3,
+      "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "index": 3,
+      "index2": 2,
+      "size": 1621,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+      "issuerId": 1,
+      "issuerName": "./node_modules/prop-types/index.js",
+      "issuerPath": [
+        {
+          "id": 2,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "name": "./src/lib/Pagination.js"
+        },
+        {
+          "id": 1,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+          "name": "./node_modules/prop-types/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+          "module": "./node_modules/prop-types/index.js",
+          "moduleName": "./node_modules/prop-types/index.js",
+          "type": "cjs require",
+          "userRequest": "./factoryWithThrowingShims",
+          "loc": "18:19-56"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');\n\nfunction emptyFunction() {}\nfunction emptyFunctionWithReset() {}\nemptyFunctionWithReset.resetWarningCache = emptyFunction;\n\nmodule.exports = function() {\n  function shim(props, propName, componentName, location, propFullName, secret) {\n    if (secret === ReactPropTypesSecret) {\n      // It is still safe when called from React.\n      return;\n    }\n    var err = new Error(\n      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +\n      'Use PropTypes.checkPropTypes() to call them. ' +\n      'Read more at http://fb.me/use-check-prop-types'\n    );\n    err.name = 'Invariant Violation';\n    throw err;\n  };\n  shim.isRequired = shim;\n  function getShim() {\n    return shim;\n  };\n  // Important!\n  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.\n  var ReactPropTypes = {\n    array: shim,\n    bool: shim,\n    func: shim,\n    number: shim,\n    object: shim,\n    string: shim,\n    symbol: shim,\n\n    any: shim,\n    arrayOf: getShim,\n    element: shim,\n    elementType: shim,\n    instanceOf: getShim,\n    node: shim,\n    objectOf: getShim,\n    oneOf: getShim,\n    oneOfType: getShim,\n    shape: getShim,\n    exact: getShim,\n\n    checkPropTypes: emptyFunctionWithReset,\n    resetWarningCache: emptyFunction\n  };\n\n  ReactPropTypes.PropTypes = ReactPropTypes;\n\n  return ReactPropTypes;\n};\n"
+    },
+    {
+      "id": 4,
+      "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "index": 4,
+      "index2": 1,
+      "size": 314,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "issuerPath": [
+        {
+          "id": 2,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/babel-loader/lib/index.js??ref--4!/home/user/Downloads/react-hooks-pagination/src/lib/Pagination.js",
+          "name": "./src/lib/Pagination.js"
+        },
+        {
+          "id": 1,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/index.js",
+          "name": "./node_modules/prop-types/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+          "name": "./node_modules/prop-types/factoryWithThrowingShims.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/home/user/Downloads/react-hooks-pagination/node_modules/prop-types/factoryWithThrowingShims.js",
+          "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "moduleName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "type": "cjs require",
+          "userRequest": "./lib/ReactPropTypesSecret",
+          "loc": "10:27-64"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3,
+      "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+  ]
+}
