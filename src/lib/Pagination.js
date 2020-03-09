@@ -125,7 +125,7 @@ function  Pagination(props) {
 Pagination.propTypes = {
   totalRecords: PropTypes.number.isRequired,
   pageLimit: PropTypes.number,
-  pageNeighbours: PropTypes.number,
+  pageRangeDisplayed: PropTypes.number,
   onChangePage: PropTypes.func
 };
 
