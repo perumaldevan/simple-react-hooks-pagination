@@ -14,10 +14,7 @@ const initialState = {
 const collection = firebase.firestore().collection("users");
 function App(){
   const pageLimit = 5;
-  const [resultSet, setResultSet] = useState([]);
   const [offset, setOffset] = useState(0);
-  const [records, setRecords] = useState([]);
- 
   const [state, dispatch] = useReducer(Reducer, initialState);
   const [totalRecords, setTotalRecords] = useState(0);
 
