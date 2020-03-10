@@ -4,13 +4,8 @@ Simple pagination component for ReactJS.
 
 ```javascript
 import React, { useState,useEffect } from 'react';
-import Pagination from 'reactjs-hooks-pagination';
+import Pagination from 'simple-react-hooks-pagination';
 const pageLimit = 5;
-const initialState = {  
-  user: {},  
-  loading: true,  
-  error: ''  
-}  
 
 const Reducer = (state, action) => {  
   switch (action.type) {  
@@ -33,10 +28,8 @@ const Reducer = (state, action) => {
 }
 
 function App() {
-  const [state, dispatch] = useReducer(Reducer, initialState);
   const [offset, setOffset] = useState(0);
   const [totalRecords, setTotalRecords] = useState(0);
-  
   import firebase from './Firebase';
   
   const onPageChanged = page => {
@@ -62,42 +55,17 @@ function App() {
   }, [offset]);
    const {loading,user,error}  =state;
 
- return (
-      <div className="container mb-5">
-      <table className="table table-striped">
-      <thead className="table-success">
-        <tr>
-          <th>#ID</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email Address</th>
-        </tr>
-        </thead>
-        <tbody> 
-        {loading ? ( <div>Loading ...</div>) :(
-        
-        error=='' && user.map(data => (
-          <tr key={data.id}>
-          <td>{data.id}</td>
-          <td>{data.first_name}</td>
-          <td>{data.last_name}</td>
-          <td>{data.email}</td>
-          </tr>
-          )))}
-    </tbody>       
-</table>
-<div className="d-flex flex-row py-4 justify-content-end">
-              <Pagination
+  return (
+    <div>
+       <Pagination
                 totalRecords={totalRecords}
                 pageLimit={pageLimit}
                 pageRangeDisplayed={1}
                 setOffset={setOffset}
                 onChangePage={onPageChanged}
       />
-            </div>
-      </div>
-    );
-  }
+    </div>
+  );
 }
 export default App;
 ```
