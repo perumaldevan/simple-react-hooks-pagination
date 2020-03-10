@@ -3,7 +3,7 @@
 Simple pagination component for ReactJS.
 
 ```javascript
-import React, { useState,useEffect } from 'react';
+import React, { useState,useEffect,useReducer } from 'react';
 import Pagination from 'reactjs-hooks-pagination';
 import firebase from './Firebase';
 const pageLimit = 5;
