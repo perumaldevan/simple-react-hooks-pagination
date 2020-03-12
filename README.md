@@ -2,6 +2,15 @@
 
 Simple pagination component for ReactJS.
 
+## Installation
+
+npm i reactjs-hooks-pagination
+
+with yarn:
+yarn add reactjs-hooks-pagination
+
+## Usage
+
 ```javascript
 import React, { useState,useEffect,useReducer } from 'react';
 import Pagination from 'reactjs-hooks-pagination';
