@@ -1,7 +1,7 @@
 {
   "name": "reactjs-hooks-pagination",
   "description": "A package for simple react hooks  pagination",
-  "version": "1.0.10",
+  "version": "1.0.15",
   "main": "dist/index.js",
   "files": [
     "dist/index.js",
@@ -26,7 +26,10 @@
     "react",
     "pagination",
     "react hooks",
-    "react hooks pagination"
+    "react hooks pagination",
+    "reactjs hooks pagination",
+    "reactjs pagination",
+    "hooks pagination"
   ],
   "browserslist": [
     ">0.2%",
