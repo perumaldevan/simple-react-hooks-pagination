@@ -17,6 +17,7 @@ yarn add reactjs-hooks-pagination
 import React, { useState,useEffect,useReducer } from 'react';
 import Pagination from 'reactjs-hooks-pagination';
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const pageLimit = 5;
 const initialState = {  
   user: {},  
@@ -109,6 +110,7 @@ export default App;
 import React, { useState,useEffect,useReducer } from 'react';
 import Pagination from 'reactjs-hooks-pagination';
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const pageLimit = 5;
  
 function App() {
@@ -176,6 +178,7 @@ export default App;
 
 import React, { useState,useEffect } from 'react';
 import Pagination from 'simple-react-hooks-pagination';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const pageLimit = 5;
 
 const Reducer = (state, action) => {  

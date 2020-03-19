@@ -1,7 +1,7 @@
 {
   "name": "reactjs-hooks-pagination",
   "description": "A package for simple react hooks  pagination",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "main": "dist/index.js",
   "files": [
     "dist/index.js",
@@ -53,12 +53,11 @@
     "babel-loader": "8.0.5",
     "babel-preset-react": "6.24.1",
     "css-loader": "^2.1.1",
-    "node-sass": "^4.11.0",
+    "bootstrap": "^4.4.1",
     "prettier": "^1.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "4.28.3",
     "webpack-bundle-analyzer": "^3.6.0",
